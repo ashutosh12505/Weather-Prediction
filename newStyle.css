@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #929292;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #404040;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.weather {
+    margin-top: 20px;
+}
+
+.weather-icon {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city {
+    margin: 0;
+}
+
+.temp {
+    margin: 5px 0;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+}
+
+.detail {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.detail img {
+    width: 30px;
+}
